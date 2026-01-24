@@ -64,11 +64,11 @@
   margin-bottom: 120px;
 
 }
-.form__checkbox__input {
+.form__checkbox-input {
   height: 20px;
   width: 20px;
 }
-.form__checkbox__label {
+.form__checkbox-label {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
