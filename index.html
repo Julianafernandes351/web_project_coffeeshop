@@ -13,6 +13,7 @@
       name="keywords"
       content="café, cafeteria, grãos artesanais, espresso, bebidas quentes, coffee shop"
     />
+    <link rel= "stylesheet" href="pages/index.css"/>
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
@@ -167,15 +168,15 @@
                   required
                 />
                 <button type="submit" class="form__button">Reservar uma mesa</button>
-                <div class="form__checkbox checkbox">
+                <div class="form__checkbox">
                   <input
                     type="checkbox"
                     id="terms"
                     name="terms"
-                    class="checkbox__input"
+                    class="form__checkbox__input"
                     required
                   />
-                  <label for="terms" class="checkbox__label"
+                  <label for="terms" class="form__checkbox__label"
                     >Eu concordo com os termos de uso</label
                   >
 
@@ -184,7 +185,42 @@
 
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__circle"></div>
+          <div class="footer__content">
+            <div class="footer__logo">
+              <img src="./images/logo_coffeeshop_light.svg" alt="triple Espresso">
+            </div>
+              <div class="footer__social">
+                <p class="footer__social-heading">Mídia sociak</p>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__social-link" href="#" target="_blank">
+                      <img
+                        class="footer__social-icon"
+                        src="./images/facebook_white.svg"
+                        alt="Facebook"
+                      />
+                      Facebook
+                    </a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__social-link" href="#" target="_blank">
+                      <img
+                        class="footer__social-icon"
+                        src="./images/instagram_white.svg"
+                        alt="Instagram"
+                      />
+                      Instagram
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <p class="footer__copyright">
+            © 2026 Juliana
+          </p>
+      </footer>
     </div>
   </body>
 </html>
