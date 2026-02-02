@@ -73,7 +73,9 @@ line-height: 20px;
   color: #ffffff;
   text-decoration: none;
 }
-
+.footer__social-link:hover{
+  color: #c1c1c1;
+}
 .footer__social-icon{
   width: 16px;
   height: 16px;
