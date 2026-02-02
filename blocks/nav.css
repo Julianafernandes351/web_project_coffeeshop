@@ -27,6 +27,6 @@
   color: #000;
   font-size: 14px;
 }
-.nav__link: :hover{
+.nav__link:hover{
 color:#2F80ED;
 }
